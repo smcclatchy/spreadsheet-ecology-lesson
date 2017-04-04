@@ -8,25 +8,26 @@ permalink: /guide/
 
 ### Lesson purpose
 
-The purpose of this lesson is not to teach how to do data analysis in spreadsheets, 
-but to teach good data organization and how to do some data cleaning and 
-quality control in a spreadsheet program.
+Not to teach *data analysis in spreadsheets*
+rather teach good
+* data organization 
+* data cleaning and 
+* quality control 
+in a spreadsheet program.
 
 ### Narrative
 
 #### [Introduction](/00-intro/)
 
-* Introduce that we're teaching data organization, and that we're using
-spreadsheets, because most people do data entry in spreadsheets or 
-have data in spreadsheets.
-* Emphasize that we are teaching good practice in data organization and that
-this is the foundation of their research practice. Without organized and clean
-data, it will be difficult for them to apply the things we're teaching in the
-rest of the workshop to their data.
-* Much of their lives as a researcher will be spent on this 'data wrangling' stage, but
-some of it can be prevented with good strategies for data collection up front.
-* Tell that we're not teaching data analysis or plotting in spreadsheets, because it's
-very manual and also not reproducible. That's why we're teaching SQL, R, Python!
+* teaching data organization in spreadsheets because most people use spreadsheets for
+* data entry or 
+* have data in spreadsheets.
+* good practice in data organization is the foundation of their research practice. 
+* Without organized clean data, difficult to apply the things we're teaching in workshop to their data.
+* Much of life as researcher spent on 'data wrangling' stage
+* some can be prevented with good strategies for data collection up front.
+* not teaching data analysis or plotting in spreadsheets - very manual and not reproducible. 
+* why we're teaching Python!
 * Now let's talk about spreadsheets, and when we say spreadsheets, we mean any program that
 does spreadsheets like Excel, LibreOffice, OpenOffice. Most learners are probably using Excel.
 * Ask the audience any things they've accidentally done in spreadsheets. Talk about an example of your own, like that you accidentally sorted only a single column and not the rest
