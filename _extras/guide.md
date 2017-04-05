@@ -17,49 +17,58 @@ in a spreadsheet program.
 
 ### Narrative
 
-#### [Introduction](/00-intro/)
+#### [Introduction](/00-intro/) 15 min
 
 * teaching data organization in spreadsheets because most people use spreadsheets for
-* data entry or 
-* have data in spreadsheets.
+  * data entry or 
+  * have data in spreadsheets.
 * good practice in data organization is the foundation of their research practice. 
-* Without organized clean data, difficult to apply the things we're teaching in workshop to their data.
-* Much of life as researcher spent on 'data wrangling' stage
-* some can be prevented with good strategies for data collection up front.
-* not teaching data analysis or plotting in spreadsheets - very manual and not reproducible. 
-* why we're teaching Python!
-* Now let's talk about spreadsheets, and when we say spreadsheets, we mean any program that
-does spreadsheets like Excel, LibreOffice, OpenOffice. Most learners are probably using Excel.
-* Ask the audience any things they've accidentally done in spreadsheets. Talk about an example of your own, like that you accidentally sorted only a single column and not the rest
-of the data in the spreadsheet. What are the pain points!?
-* As people answer highlight some of these issues with spreadsheets
+  * Without organized clean data, difficult to apply the things we're teaching in workshop to their data.
+  * Much of life as researcher spent on 'data wrangling' stage
+  * some can be prevented with good strategies for data collection up front.
+* not teaching data analysis or plotting in spreadsheets
+  * very manual and not reproducible. 
+  * why we're teaching Python!
+* spreadsheets - any program like Excel, LibreOffice, OpenOffice.
+  * things accidentally done in spreadsheets? pain points!?
+  * As people answer highlight some of these issues with spreadsheets
 
-#### [Formatting data](/01-format-data/)
-
-* Go through the point about keeping track of your steps and keeping raw data raw
-* Go through the cardinal rule of spreadsheets about columns, rows and cells
-* Hand them a messy data file and have them pair up and work together to clean up the data.
-*Give them 15 minutes to do this.*
-* Ask for what people did to clean the data. As they bring up different points you can
-refer to them in the 02-common-mistakes.md file, or expand a bit on the point they brought up.
-If you are just teaching the lesson, it would be good to familiarize yourself with 
-the set of mistakes in 02-common-mistakes. All these mistakes are present in the messy
-dataset.
-* If you get a response where they've fixed the date, you can pause and go to the
-03-dates-as-data.md lesson. Or you can say you'll come back to dates at the end. 
-There's an exercise in that file about how to change the
-date into three columns using Excel's built in MONTH, DAY, YEAR functions. Have them
-run through that exercise. 
+#### [Formatting data](/01-format-data/) 15 min
+* Computers
+  * very powerful
+  * also very literal - do exactly what you tell them to do, so be careful
+  * don't understand context, notes in the margin, color-coding, spatial relationships btw data
+  * must explain what these things mean, or set data up so that it makes sense to computer
+* Good data organization is foundation of every research project
+  * very important to create well-formatted tables at start of project
+  * before entering data from first experiment
+  * lots of choices, but some choices will limit what ability to work in programs like SAS, R, Python
+  * be best friend to your future self
+  
+* Keep track of your steps and keep raw data raw
+  * to reproduce analysis later OR
+  * do a different analysis later
+  * create a new file or tab with cleaned or analyzed data - do not modify original
+  * keep track of each step in clean up or analysis in new tab or text document
+  * Example: show figure 1
+* Variables in columns, observations in rows, data values in cells 
+* Cells have only one piece of info - not mix of numbers & text 
+  * Example: show figure 2 & 3
+* Leave raw data raw - don't touch it
+* Export cleaned data to text format like CSV format
+  * anyone can use the data
+  * required by most data repositories
+* Exercise: messy data file - pair up and work together to clean up the data.
+*15 minutes*
+* Ask for what people did to clean the data.
 
 #### [Common formatting problems](/02-common-mistakes/)
 
-* **Don't go through this chapter** except to refer to as responses to the exercise in
-the previous chapter.
+* **Don't go through this episode** except in reference to previous exercise.
 
 #### [Dates as data](/03-dates-as-data/)
 
-* Do the exercise and make the point about dates either in reponse to a learner bringing
-up date as an issue during the responses, or at the end of the response time.
+* Do the exercise and make the point about dates.
 
 #### [Quality control](/04-quality-control/)
 *This lesson is optional*
